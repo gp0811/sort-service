@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8e944238c781ac3db785b574f331d047&auto=format&fit=crop&w=1051&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#header{
+    font-family: 'Handlee', cursive;
+    letter-spacing: 1px;
+    font-weight: 100;
+    width: 100%;
+    height: 12%;
+    padding: 25px 170px;
+    color: white;
+    display: flex;
+}
+#header h1{
+    margin-right: 150px;
+}
+#b{
+    width: 70px;
+    height: 40px;
+    color: white;
+    margin-right: 90px;
+    background-color: transparent;
+    border-width: 0;
+    font-size: 16px
+}
+#fb{
+    margin-left: 230px;
+    padding-top: 3px;
+}
+#tw{
+    margin-left: 28px;
+    padding-top: 3px;
+}
+#insta{
+    margin-left: 28px;
+    padding-top: 3px;
+}
+
+#middle{
+    width: 100%;
+    height: 88%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Assistant', sans-serif;
+}
+#content{
+    word-spacing: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+#form{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#form form input[type="text"],input[type="password"],input[type="submit"]{
+    margin-right: 30px;
+    height: 50px;
+    width: 275px;
+    padding-left: 20px; 
+    border-radius: 30px;
+    border-width: 0;
+}
+#form form input[type="submit"]{
+    padding: 0;
+    color: white;
+    background-color: tomato;
+}
+
+#risk{
+    color: white;
+    margin-top: 20px;
+    font-weight: 800;
+}
